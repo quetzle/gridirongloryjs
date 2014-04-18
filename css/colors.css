@@ -123,10 +123,10 @@ a {
   transition: color 0.3s ease-in-out; }
 
 a:link {
-  color: #0074d9; }
+  color: #aaaaaa; }
 
 a:visited {
-  color: #b10dc9; }
+  color: #aaaaaa; }
 
 a:hover {
   color: #7fdbff; }

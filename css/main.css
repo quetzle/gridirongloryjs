@@ -22,8 +22,8 @@ body {
 	width: 640px;
 	height: 100%;
 	padding: 10px;
-	border-left: ridge #DDDDDD 4px;
-	border-right: groove #DDDDDD 4px;
+	border-left: ridge #dddddd 4px;
+	border-right: groove #dddddd 4px;
 	font-family: 'Open Sans', sans-serif;
 }
 h1 {
@@ -39,4 +39,26 @@ h1,h2,h3,h4,h5,h6 {
 }
 p {
 	text-align: justify;
+}
+#content,#credit {
+	padding-bottom: 20px;
+}
+#credit {
+	text-align: center;
+}
+#credit p {
+	text-align: center;
+}
+#foot {
+	position: absolute;
+	bottom: 0;
+	width: 640px;
+	height: 20px;
+	text-align: center;
+	font-size: 12px;
+	font-style: italic;
+	border-top:  solid #aaaaaa 1px;
+}
+a {
+	text-decoration: none;
 }
