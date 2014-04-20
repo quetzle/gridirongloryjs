@@ -50,7 +50,7 @@ p {
 	text-align: center;
 }
 #foot {
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: 640px;
 	height: 20px;
@@ -58,7 +58,51 @@ p {
 	font-size: 12px;
 	font-style: italic;
 	border-top:  solid #aaaaaa 1px;
+	background-color: #0074d9;
 }
 a {
 	text-decoration: none;
+}
+h1 a:link, h1 a:visited {
+	color: #dddddd;
+}
+h1 a:hover {
+	color: #7fdbff;
+}
+button {
+	background: #0074d9;
+	color: #dddddd;
+	box-shadow: 0 4px #005499;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+	border: solid #005499 1px;
+	border-radius: 5px;
+	background: none;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+	width: 318px;
+}
+button.left {
+	margin-right: 4px;
+}
+button:hover {
+	box-shadow: 0 2px #005499;
+	top: 2px;
+}
+button:active {
+	box-shadow: 0 0 #005499;
+	top: 6px;
+}
+#names,#teams,#both,#names p,#teams p,#both p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
 }

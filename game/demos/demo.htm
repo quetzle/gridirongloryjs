@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Gridiron Glory</title>
+<link href="../../css/normalize.css" rel="stylesheet" type="text/css">
+<link href="../../css/colors.css" rel="stylesheet" type="text/css">
+<link href="../../css/main.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../../css/img/fav.ico">
+<script src="gens.js"></script>
+</head>
+<body class="bg-blue silver" onLoad="boot()">
+<div id="contain">
+<div id="content">
+<h1><a href="../../index.htm">Gridiron Glory</a></h1>
+<p>Generators are below. Click on the buttons to generate what it says. Examples are shown as defaults. To clear all generated strings, click <a href="#" onClick="boot()">here</a>.</p>
+<button onClick="getName()" class="left">replace name</button><button onClick="newName()">add name</button>
+<div id="names">JOHN DOE</div>
+<button onClick="getTeam()" class="left">replace team</button><button onClick="newTeam()">add team</button>
+<div id="teams">CITYVILLE FOOTBALLERS</div>
+<button onClick="getBoth()" class="left">replace both</button><button onClick="newBoth()">add both</button>
+<div id="both">JOHN DOE on the CITYVILLE FOOTBALLERS</div>
+</div>
+<div id="foot" class="gray"><a href="../../about.htm">about</a> &bull; <a href="../../credit.htm">credits</a> &bull; <a href="http://github.com/quetzle/gridirongloryjs">github</a> &bull; <a href="demo.htm">demos</a></div>
+</div>
+</body>
+</html>
